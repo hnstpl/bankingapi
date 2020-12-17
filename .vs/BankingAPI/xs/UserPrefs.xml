@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{3A6036BA-A811-4F5B-9D53-5BAA3402E4D5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ingress.yaml">
+    <Files>
+      <File FileName="customer/Controllers/CustomerController.cs" Line="18" Column="60" />
+      <File FileName="customer.yaml" Line="35" Column="18" />
+      <File FileName="order.yaml" Line="30" Column="13" />
+      <File FileName="ingress.yaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BankingAPI" expanded="True">
+            <Node name="Solution Items" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.customer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

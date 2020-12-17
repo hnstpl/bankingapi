@@ -1,0 +1,35 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  customerapi
+  labels:
+    app:  customerapi
+spec:
+  selector:
+    matchLabels:
+      app: customerapi
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app:  customerapi
+    spec:
+      containers:
+      - name:  customerapi
+        image:  asia.gcr.io/digisense-293411/customerapi
+        ports:
+        - containerPort:  80
+      restartPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: customerapi-svc
+spec:
+  selector:
+    app: customerapi
+  type: NodePort
+  ports:
+  - port: 8001 
+    targetPort: 80
+    protocol: TCP
