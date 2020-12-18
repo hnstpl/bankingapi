@@ -2,6 +2,8 @@
 kind: Ingress
 metadata:
   name: banking-microservices
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: "static-ip"
 spec:
   rules:
   - http:
