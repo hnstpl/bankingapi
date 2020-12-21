@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{3A6036BA-A811-4F5B-9D53-5BAA3402E4D5}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="customer/Controllers/CustomerController.cs">
     <Files>
-      <File FileName="customer/Controllers/CustomerController.cs" Line="13" Column="27" />
-      <File FileName="customer.yaml" Line="27" Column="9" />
-      <File FileName="order.yaml" Line="27" Column="21" />
-      <File FileName="ingress.yaml" Line="4" Column="30" />
-      <File FileName="order/Controllers/OrderController.cs" Line="17" Column="20" />
+      <File FileName="order/Controllers/OrderController.cs" Line="32" Column="1" />
+      <File FileName="customer/Controllers/CustomerController.cs" Line="34" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

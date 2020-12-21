@@ -12,11 +12,26 @@ namespace customer.Controllers
     {
         // GET: api/values
         [Route("customer")]
-        [Route("customer/get")]
+        //[Route("customer/get")]
         [HttpGet("")]
         public IEnumerable<string> GetCustomers()
         {
             return new string[] { "Customer 1", "Customer 2" };
         }
+
+        [Route("customer/list")]
+        [HttpGet]
+        public IEnumerable<string> List()
+        {
+            return new string[] { "List customer1", "List Customer 2" };
+        }
+
+        [Route("customer/authenticate")]
+        [HttpPost]
+        public IEnumerable<string> Post()
+        {
+            return new string[] { "Post Customer1", "Post Customer 2" };
+        }
     }
 }
+    

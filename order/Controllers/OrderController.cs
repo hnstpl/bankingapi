@@ -14,11 +14,21 @@ namespace order.Controllers
         // GET: api/values
         [AllowAnonymous]
         [Route("order")]
-        [Route("order/get")]
+        //[Route("order/get")]
         [HttpGet("")]
         public IEnumerable<string> Get()
         {
             return new string[] { "order 1", "order 2" };
         }
+
+        [AllowAnonymous]
+        [Route("order/list")]
+        [HttpGet]
+        public IEnumerable<string> List()
+        {
+            return new string[] { "List order 1", "List order 2" };
+        }
+
+
     }
 }
